@@ -17,14 +17,26 @@ code {
 
 @import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Roboto+Condensed');
 
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display');
+
 @font-face {
   font-family: 'header';
   src: url('./font/Raleway-Regular.ttf') format('truetype');
 }
 
 @font-face {
+  font-family: 'header medium';
+  src: url('./font/Raleway-Medium.ttf') format('truetype');
+}
+
+@font-face {
   font-family: 'header thin';
   src: url('./font/Raleway-Thin.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'League Spartan';
+  src: url('./font/LeagueSpartan-Bold.otf') format('truetype');
 }
 
 .scroll {

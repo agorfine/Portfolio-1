@@ -4,24 +4,25 @@
 
 .intro {
 	text-align: center;
-	margin-top: 350px;
-	font-size: 30px;
+	margin-top: 315px;
+	font-size: 27px;
 	text-shadow:
-		-.5px -.5px 0 rgb(55,30,113),
-		.5px -.5px 0 rgb(55,30,113),
-		-.5px .5px 0 rgb(55,30,113),
-		.5px .5px 0 rgb(55,30,113);
+		-1px -1px 0 rgb(55,30,113),
+		1px -1px 0 rgb(55,30,113),
+		-1px 1px 0 rgb(55,30,113),
+		1px 1px 0 rgb(55,30,113);
 }
 
 .jobTitle {
 	text-align: center;
 	font-size: 62px;
-	margin-top: 15px;
+	margin-top: 20px;
+	font-family: 'Playfair Display', serif;
 	text-shadow:
-		-.5px -.5px 0 rgb(55,30,113),
-		.5px -.5px 0 rgb(55,30,113),
-		-.5px .5px 0 rgb(55,30,113),
-		.5px .5px 0 rgb(55,30,113);
+		-1px -1px 0 rgb(55,30,113),
+		1px -1px 0 rgb(55,30,113),
+		-1px 1px 0 rgb(55,30,113),
+		1px 1px 0 rgb(55,30,113);
 }
 
 .heroImage {
@@ -37,7 +38,7 @@
 
 .space {
 	background-color: rgb(232,223,255, .5);
-	margin-top: 266px;
+	margin-top: 289px;
 }
 
 .lavender {
@@ -61,34 +62,50 @@
 	text-align: center;
 	margin-top: 10px;
 	color: rgb(55,30,113);
+	font-family: 'Playfair Display', serif;
 }
 
 .grid {
 	display: flex;
-	margin-top: 30px;
+	margin-top: 20px;
 	justify-content: center;
 	flex-wrap: wrap;
 }
 
 .project {
-	height: 175px;
-	width: 175px;
-	margin: 17px 30px;
+	height: 200px;
+	width: 200px;
+	margin: 40px 30px;
+	margin-bottom: 10px;
 	text-decoration: none;
 	color: white;
 	border-radius: 5px;
 	box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12), 0 1px 4px rgba(0, 0, 0, 0.24);
+	transition: scale 1s;
+}
+
+.project:hover {
+  transform: scale(1.05);
 }
 
 .projectTitle {
 	margin-top: 50%;
 	margin-bottom: 50%;
-	text-shadow:
+	color: transparent;
+/*	text-shadow:
 	-.5px -.5px 0 black,
 	.5px -.5px 0 black,
 	-.5px .5px 0 black,
-	.5px .5px 0 black;
+	.5px .5px 0 black;*/
+}
 
+.projectContainer{
+	display: flex;
+	flex-direction: column;
+	color: rgb(55,30,113);
+	font-family: 'header';
+	font-weight: bold;
+	font-size: 20px;
 }
 
 .project1 {
@@ -101,6 +118,7 @@
 	background-image: url(https://res.cloudinary.com/drsaojfyp/image/upload/v1542481539/Screen_Shot_2018-11-17_at_1.56.54_PM.png);
 	background-size: cover;
 	background-repeat: no-repeat;
+	background-position: center; 
 }
 
 .project3Home {
@@ -119,6 +137,7 @@
 	background-image: url(https://res.cloudinary.com/drsaojfyp/image/upload/v1542481182/Screen_Shot_2018-11-17_at_1.59.28_PM.png);
 	background-size: cover;
 	background-repeat: no-repeat;
+	background-position: center; 
 }
 
 .skills {
@@ -136,6 +155,7 @@
 	text-align: center;
 	margin-top: 20px;
 	color: rgb(55,30,113);
+	font-family: 'Playfair Display', serif;
 }
 
 .skill {
@@ -151,4 +171,6 @@
 	font-size: 20px;
 	margin-top: 7px;
 	color: rgb(55,30,113);
+	font-family: 'header';
+	font-weight: bold;
 }

@@ -6,29 +6,45 @@ function Home(props) {
 		<div>
 			<div className= 'home'>
 				<div className = "intro">Hi! My name is Amanda Gorfine, and I am a</div>
-				<div className = "jobTitle">Front End Web Developer</div>
+				<div className = "jobTitle">Front-End Web Developer</div>
 				<div className = 'heroImage'></div>
+			{/*https://aaww.org/wp-content/uploads/2017/04/wallup-23584.jpg?w=640*/}
 			</div>
 			<div className = 'space'>
 			<div className = 'lavender'></div>
 				<div className = 'portfolio'>
 					<div className= 'portfolioTitle'>PORTFOLIO</div>
 					<div className = 'grid'>
-						<a className = 'project project1' href="https://pages.git.generalassemb.ly/agorfine/Project1_Battleship/" target="_blank" rel="noopener noreferrer">
-							<div className = 'projectTitle'>One Player Battleship</div> 
-						</a>
-						<a className = 'project project2' href="http://disney-trip.surge.sh/" target="_blank" rel="noopener noreferrer">
-							<div className = 'projectTitle'>Disney Trip Adviser</div>
-						</a>
-						<a className = 'project project3Home' href="https://herokudeployfinsta.herokuapp.com/" target="_blank" rel="noopener noreferrer">
-							<div className = 'projectTitle'>Instagram</div>
-						</a>
-						<a className = 'project project4' href="https://agorfine.github.io/Duck-Hunt/" target="_blank" rel="noopener noreferrer">
-							<div className = 'projectTitle'>Duck Hunt</div>
-						</a>
-						<a className = 'project project5' href="https://agorfine.github.io/JavaScript-Weather-App/" target="_blank" rel="noopener noreferrer">
-							<div className = 'projectTitle'>Weather App</div>
-						</a>
+						<div className= 'projectContainer'>	
+							<a className = 'project project1' href="https://pages.git.generalassemb.ly/agorfine/Project1_Battleship/" target="_blank" rel="noopener noreferrer">
+								<div className = 'projectTitle'>One Player Battleship</div> 
+							</a>
+							<div className='projectTitleShown'>One Player Battleship</div>
+						</div>
+						<div  className='projectContainer'>
+							<a className = 'project project2' href="http://disney-trip.surge.sh/" target="_blank" rel="noopener noreferrer">
+								<div className = 'projectTitle'>Disney Trip Adviser</div>
+							</a>
+							<div className='projectTitleShown'>Disney Trip Adviser</div>
+						</div>	
+						<div className= 'projectContainer'>
+							<a className = 'project project3Home' href="https://herokudeployfinsta.herokuapp.com/" target="_blank" rel="noopener noreferrer">
+								<div className = 'projectTitle'>Instagram</div>
+							</a>
+							<div className='projectTitleShown'>Instagram</div>
+						</div>
+						<div className='projectContainer'>
+							<a className = 'project project4' href="https://agorfine.github.io/Duck-Hunt/" target="_blank" rel="noopener noreferrer">
+								<div className = 'projectTitle'>Duck Hunt</div>
+							</a>
+							<div className='projectTitleShown'>Duck Hunt</div>
+						</div>
+						<div className='projectContainer'>
+							<a className = 'project project5' href="https://agorfine.github.io/JavaScript-Weather-App/" target="_blank" rel="noopener noreferrer">
+								<div className = 'projectTitle'>Weather App</div>
+							</a>
+							<div className='projectTitleShown'>Weather App</div>
+						</div>
 					</div>
 				</div>
 				<div className = 'skills'>

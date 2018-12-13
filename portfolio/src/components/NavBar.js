@@ -13,7 +13,7 @@ class NavBar extends Component {
 					<div className= "routeLinks">
 						<div><Link to="/" className="link">HOME</Link></div>
 						<div><Link to="/Portfolio" className="link">PORTFOLIO</Link></div>
-						<div><Link to="/Aboutme" className="link">ABOUT ME</Link></div>
+						<div><Link to="/Aboutme" className="link">ABOUT</Link></div>
 						<div><Link to="/Resume" className="link">RESUME</Link></div>
 						<div><Link to="/Contact" className="link">CONTACT</Link></div>
 					</div>
